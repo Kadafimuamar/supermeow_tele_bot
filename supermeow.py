@@ -40,7 +40,7 @@ if __name__ == "__main__":
     param_claims = []
     num_threads = int(input("Enter the number of threads: "))
     for _ in range(num_threads):
-        param = input('')
+        param = input('parameter:')
         param_claims.append(param)
 
     threads = []
