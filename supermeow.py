@@ -40,7 +40,7 @@ if __name__ == "__main__":
     param_claims = []
     num_threads = int(input("Enter the number of threads: "))
     for _ in range(num_threads):
-        param = input('Masukan Data Parameter example "telegram=68xxxx" : ')
+        param = input('telegram=6279279513&auth_data=%7B%22query_id%22:%22AAGZM0Z2AgAAAJkzRnaxSO5C%22,%22user%22:%22%7B%5C%22id%5C%22:6279279513,%5C%22first_name%5C%22:%5C%22Bowneey%5C%22,%5C%22last_name%5C%22:%5C%22%5C%22,%5C%22username%5C%22:%5C%22bowneey%5C%22,%5C%22language_code%5C%22:%5C%22en%5C%22,%5C%22allows_write_to_pm%5C%22:true%7D%22,%22auth_date%22:%221717392077%22,%22hash%22:%22982131fa87d9ae30ed0cf6a758175755232bd0ac64966d1464210c240dce4cf2%22%7D')
         param_claims.append(param)
 
     threads = []
